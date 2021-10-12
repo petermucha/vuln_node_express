@@ -1,0 +1,8 @@
+# stackhawk configuration for vuln_node_express
+app:
+  # An applicationId obtained from the StackHawk platform.
+  applicationId: ebcd74a4-71b8-4a95-b60f-e7c2d64d811c # (required)
+  # The environment for the applicationId defined in the StackHawk platform.
+  env: Development # (required)
+  # The url of your application to scan
+  host: http://localhost:3000 # (required)
